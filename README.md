@@ -8,5 +8,4 @@ class Solution:
             else:
                 nums.remove(nums[i+1])
                 i += 1
-
         return int(len(nums))
